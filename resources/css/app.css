@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white; /* Mengatur warna teks */
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.text-container {
+    background: rgba(255, 245, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 245, 255, 0.1);
+    margin-top: 100px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:  10;
+}
+
+
+table {
+    width: 90%;
+    margin: 0 5%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 0.5em;
+    border: 1px solid white;
+  }
