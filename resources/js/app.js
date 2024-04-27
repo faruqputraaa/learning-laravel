@@ -1,5 +1,4 @@
 import './bootstrap';
-
 const canvas = document.getElementById('rainfall');
 const ctx = canvas.getContext('2d');
 
@@ -9,6 +8,7 @@ canvas.height = window.innerHeight;
 
 // Create an array to store the raindrops
 const raindrops = [];
+
 
 // Function to create a new raindrop
 function createRaindrop() {
